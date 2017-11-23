@@ -15,6 +15,6 @@ class ReactiveCli < Formula
   end
 
   test do
-    system bin/"reactive-cli", "-help"
+    system bin/"reactive-cli", "version"
   end
 end
